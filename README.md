@@ -1,309 +1,212 @@
-# Network-security-and-penetration-testing
+# 🔐 Network Security & Penetration Testing
 
-## Overview
+<p align="center">
+  <img src="https://img.shields.io/badge/Kali%20Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white" />
+  <img src="https://img.shields.io/badge/Metasploit-2596CD?style=for-the-badge&logo=metasploit&logoColor=white" />
+  <img src="https://img.shields.io/badge/Burp%20Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white" />
+  <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" />
+  <img src="https://img.shields.io/badge/MITRE%20ATT%26CK-E22C2C?style=for-the-badge&logo=target&logoColor=white" />
+</p>
 
-This repository contains hands-on network security labs and projects completed during graduate-level Network Security coursework.
-
-The projects focus on enterprise security administration, vulnerability assessment, penetration testing, Active Directory deployment, DNS security, web application security testing, cyber incident investigation, and network traffic analysis.
-
-The work was performed in isolated lab environments using Windows Server, Kali Linux, Metasploitable, VirtualBox, Wireshark, Burp Suite, Metasploit Framework, and Nmap.
-
----
-
-## Skills Demonstrated
-
-✔ Active Directory Administration
-
-✔ Windows Server Security
-
-✔ Domain Controller Deployment
-
-✔ DNS Analysis
-
-✔ DNS Poisoning Concepts
-
-✔ Network Reconnaissance
-
-✔ Nmap Scanning
-
-✔ Vulnerability Assessment
-
-✔ Penetration Testing
-
-✔ Metasploit Framework
-
-✔ Web Application Security Testing
-
-✔ Burp Suite
-
-✔ HTTP Traffic Analysis
-
-✔ Cyber Incident Investigation
-
-✔ Network Traffic Analysis
-
-✔ Wireshark
-
-✔ Security Reporting
-
-✔ MITRE ATT&CK Mapping
+> 🎓 Graduate-level network security portfolio covering vulnerability assessment, penetration testing, Active Directory administration, DNS security, web application testing, and cyber incident investigation — all performed in authorized lab environments.
 
 ---
 
-## Technologies & Tools
+## 📌 Overview
 
-### Operating Systems
+This repository documents hands-on offensive and defensive security work completed during **graduate-level Network Security coursework** at Minnesota State University Moorhead. It covers the full penetration testing lifecycle from reconnaissance to post-exploitation, alongside enterprise administration, incident response, and traffic forensics.
 
-- Windows Server 2022
-- Kali Linux
-- Ubuntu
-- Metasploitable Linux
-
-### Security Tools
-
-- Nmap
-- Metasploit Framework
-- Burp Suite
-- Wireshark
-
-### Network Services
-
-- Active Directory
-- DNS
-- FTP
-- HTTP
-- HTTPS
-
-### Virtualization
-
-- Oracle VirtualBox
-- Azure Lab Environment
-- Windows Subsystem for Linux (WSL)
+**Environment:** Windows Server 2022 | Kali Linux | Metasploitable | Oracle VirtualBox | Azure Lab
 
 ---
 
-# Lab 1
-## Software Vulnerabilities and Real-World Exploitation
+## 📋 Contents at a Glance
 
-Topics Covered:
-
-- MITRE CWE Top 25
-- Cross-Site Request Forgery (CWE-352)
-- Incorrect Authorization (CWE-863)
-- MITRE ATT&CK Mapping
-- Security Impact Analysis
-- Real-World Exploitation Techniques
-
-Skills:
-
-- Vulnerability Research
-- Threat Analysis
-- Security Assessment
+| # | Type | Title | Key Tools |
+|---|------|-------|-----------|
+| Lab 1 | 🔬 Lab | Software Vulnerabilities & Real-World Exploitation | MITRE CWE, ATT&CK |
+| Lab 2 | 🔬 Lab | DNS Analysis & DNS Poisoning | NSLookup, Dig |
+| Lab 3 | 🔬 Lab | Payload Deployment & Persistence | Metasploit, Cron |
+| Lab 4 | 🔬 Lab | Web Application Vulnerability Testing | Burp Suite, DVWA |
+| Project 1 | 🚀 Project | Active Directory Deployment & Administration | Windows Server 2022 |
+| Project 2 | 🚀 Project | Metasploitable Exploitation Using Kali Linux | Nmap, Metasploit |
+| Project 3 | 🚀 Project | Cyber Incident Investigation via Traffic Analysis | Wireshark, FTP Forensics |
 
 ---
 
-# Lab 2
-## DNS Analysis and DNS Poisoning
+## 🔬 Labs
 
-Topics Covered:
+### Lab 1 — Software Vulnerabilities & Real-World Exploitation
 
-- NSLookup
-- Dig Utility
-- DNS Resolution Process
-- DNS Records
-- DNS Query Analysis
-- DNS Poisoning Demonstration
+**Objective:** Research and analyze real-world exploitation of MITRE CWE Top 25 vulnerabilities.
 
-Skills:
+| Topic | Details |
+|-------|---------|
+| CWE-352 | Cross-Site Request Forgery (CSRF) analysis |
+| CWE-863 | Incorrect Authorization exploitation |
+| Framework | MITRE ATT&CK technique mapping |
+| Output | Security impact analysis and mitigation report |
 
-- DNS Troubleshooting
-- Network Analysis
-- DNS Security Assessment
+**Skills:** Vulnerability Research · Threat Analysis · MITRE ATT&CK Mapping
 
 ---
 
-# Lab 3
-## Payload Deployment and Persistence
+### Lab 2 — DNS Analysis & DNS Poisoning
 
-Topics Covered:
+**Objective:** Analyze DNS resolution processes and demonstrate DNS poisoning concepts.
 
-- Metasploit Framework
-- VSFTPD Backdoor Exploitation
-- Payload Deployment
-- Linux Persistence Mechanisms
-- Cron Jobs
-- Post-Exploitation Activities
+| Topic | Details |
+|-------|---------|
+| Tools | NSLookup, Dig utility |
+| Analysis | DNS record types, forward/reverse resolution |
+| Attack | DNS poisoning demonstration and defense |
+| Output | DNS security assessment report |
 
-Skills:
-
-- Vulnerability Exploitation
-- Persistence Techniques
-- Linux Security
+**Skills:** DNS Troubleshooting · Network Analysis · DNS Security
 
 ---
 
-# Lab 4
-## Web Application Vulnerability Testing
+### Lab 3 — Payload Deployment & Persistence
 
-Topics Covered:
+**Objective:** Deploy payloads using Metasploit and establish Linux persistence mechanisms.
 
-- Burp Suite Configuration
-- HTTP Request Interception
-- Proxy Configuration
-- DVWA Security Testing
-- Authentication Testing
-- Brute Force Demonstration
+| Topic | Details |
+|-------|---------|
+| Exploit | VSFTPD backdoor exploitation |
+| Persistence | Cron job-based persistence on Linux |
+| Framework | Metasploit Framework |
+| Techniques | Post-exploitation activities and cleanup |
 
-Skills:
+**MITRE Techniques:** T1059 (Command Shell) · T1053.003 (Cron) · T1190 (Exploit Public-Facing App)
 
-- Web Security Testing
-- HTTP Analysis
-- Vulnerability Assessment
+**Skills:** Exploitation · Persistence Techniques · Linux Security
 
 ---
 
-# Project 1
-## Active Directory Deployment and Administration
+### Lab 4 — Web Application Vulnerability Testing
 
-Topics Covered:
+**Objective:** Perform web application security testing using Burp Suite against DVWA.
 
-- Active Directory Installation
-- Domain Controller Deployment
-- Domain Creation
-- Organizational Units (OUs)
-- User Account Management
-- Windows Server Administration
+| Topic | Details |
+|-------|---------|
+| Tool | Burp Suite (proxy, interceptor, repeater) |
+| Target | DVWA (Damn Vulnerable Web Application) |
+| Tests | Authentication bypass, brute force, HTTP interception |
+| Output | Web vulnerability assessment report |
 
-Environment:
-
-- Windows Server 2022
-- Domain: academia.local
-
-Skills:
-
-- Identity Management
-- Enterprise Administration
-- Access Control
+**Skills:** Web Security Testing · HTTP Analysis · Proxy Configuration
 
 ---
 
-# Project 2
-## Metasploitable Exploitation Using Kali Linux
+## 🚀 Projects
 
-Topics Covered:
+### Project 1 — Active Directory Deployment & Administration
 
-- Reconnaissance
-- Nmap Scanning
-- Service Enumeration
-- Vulnerability Identification
-- VSFTPD 2.3.4 Exploitation
-- Metasploit Framework
+**Objective:** Deploy and administer an enterprise Active Directory environment from scratch.
 
-MITRE ATT&CK Techniques:
+| Component | Details |
+|-----------|---------|
+| Platform | Windows Server 2022 |
+| Domain | academia.local |
+| Structure | Domain Controller → OUs → Users & Groups |
+| Tasks | AD DS installation, OU design, user provisioning, access control |
 
-- T1046 – Network Service Scanning
-- T1190 – Exploit Public-Facing Application
-- T1059 – Command Shell
-- T1082 – System Information Discovery
-
-Skills:
-
-- Penetration Testing
-- Exploitation Analysis
-- Threat Emulation
+**Skills:** Identity Management · Enterprise Administration · Access Control · Domain Controller Promotion
 
 ---
 
-# Project 3
-## Cyber Incident Investigation Using Network Traffic Capture
+### Project 2 — Metasploitable Exploitation Using Kali Linux
 
-Topics Covered:
+**Objective:** Conduct a full penetration test against Metasploitable from reconnaissance to exploitation.
 
-- FTP Log Analysis
-- Packet Capture Analysis
-- Wireshark Investigation
-- Timeline Reconstruction
-- Threat Hunting
-- Incident Response
+#### Attack Chain
 
-Investigation Focus:
+```
+Reconnaissance        →   Nmap port & service scan
+Service Enumeration   →   VSFTPD 2.3.4 identified
+Exploitation          →   Metasploit VSFTPD backdoor module
+Post-Exploitation     →   Shell access & system discovery
+```
 
-- Network Reconnaissance
-- Service Enumeration
-- Unauthorized Access Attempts
-- Attack Timeline Reconstruction
-- Security Recommendations
+#### MITRE ATT&CK Mapping
 
-Skills:
+| Tactic | Technique ID | Technique |
+|--------|-------------|-----------|
+| Discovery | T1046 | Network Service Scanning |
+| Initial Access | T1190 | Exploit Public-Facing Application |
+| Execution | T1059 | Command and Scripting Interpreter |
+| Discovery | T1082 | System Information Discovery |
 
-- Digital Forensics
-- Incident Response
-- Network Traffic Analysis
+**Skills:** Penetration Testing · Nmap · Metasploit · Threat Emulation · Report Writing
 
 ---
 
-## Repository Structure
+### Project 3 — Cyber Incident Investigation via Network Traffic Analysis
 
-```text
-README.md
+**Objective:** Investigate a simulated cyber incident using packet capture analysis and reconstruct the attack timeline.
 
-Lab1/
-├── Software-Flaws-and-Real-World-Exploitation.pdf
+| Phase | Activity |
+|-------|---------|
+| Collection | FTP log and PCAP file acquisition |
+| Analysis | Wireshark deep packet inspection |
+| Reconstruction | Attack timeline mapping |
+| Reporting | Executive summary + technical findings + recommendations |
 
-Lab2/
-├── DNS-Analysis-and-DNS-Poisoning.pdf
+**Investigation Findings:**
+- Identified unauthorized network reconnaissance activity
+- Reconstructed attacker's lateral movement via service enumeration
+- Mapped attack stages to MITRE ATT&CK framework
+- Produced executive summary and full incident report
 
-Lab3/
-├── Payload-Deployment-and-Persistence.pdf
+**Skills:** Digital Forensics · Incident Response · Wireshark · Timeline Reconstruction · Executive Reporting
 
-Lab4/
-├── Web-Application-Vulnerability-Testing.pdf
+---
 
-Project1/
-├── Active-Directory-Deployment.pdf
-├── Active-Directory-Presentation.pdf
+## 📁 Repository Contents
 
-Project2/
-├── Metasploitable-Exploitation.pdf
-├── Metasploit-Presentation.pdf
-
-Project3/
-├── Incident-Investigation.pdf
-├── Executive-Summary.pdf
-├── Incident-Response-Presentation.pdf
-
-Screenshots/
+```
+📦 Network-security-and-penetration-testing
+├── 📄 README.md
+├── 📋 Network Security - Lab 1 - Hashan Kodippilige.pdf
+├── 📋 Network Security - Lab 2 - Hashan Kodippilige.pdf
+├── 📋 Network Security - Lab 3 - Hashan Kodippilige.pdf
+├── 📋 Network Security - Lab 4 - Hashan Kodippilige.pdf
+├── 📋 Network Security - Project 1 - Hashan Kodippilige.pdf
+├── 📋 Network Security_Project 1 ppt_Hashan Kodippilige.pdf
+├── 📋 Network Security - Project 2 - Hashan Kodippilige.pdf
+├── 📋 Network Security_Project 2 ppt_Hashan Kodippilige.pdf
+├── 📋 Executive Summary_Project 3 - Hashan Kodippilige.pdf
+└── 📋 Network Security_project 3 ppt_Hashan Kodippilige.pdf
 ```
 
 ---
 
-## Learning Outcomes
+## 🧠 Skills Demonstrated
 
-This repository demonstrates practical experience in:
-
-- Enterprise Network Security
-- Vulnerability Assessment
-- Security Operations
-- Active Directory Administration
-- Penetration Testing
-- Incident Response
-- Digital Forensics
-- Network Traffic Analysis
-- Threat Detection
-- Security Reporting
+`Penetration Testing` `Metasploit Framework` `Nmap` `Burp Suite` `Wireshark` `Active Directory` `DNS Security` `DNS Poisoning` `MITRE ATT&CK` `MITRE CWE` `Incident Response` `Digital Forensics` `Web Application Security` `DVWA` `Kali Linux` `Windows Server 2022` `Network Reconnaissance` `Vulnerability Assessment` `Security Reporting`
 
 ---
 
-## Disclaimer
+## 💡 Real-World Relevance
 
-All activities were conducted within authorized educational lab environments for cybersecurity training and research purposes.
+This portfolio maps directly to industry roles including:
+- **SOC Analyst** — incident investigation, traffic analysis, threat mapping
+- **Penetration Tester** — full pentest lifecycle from recon to reporting
+- **Security Engineer** — AD administration, DNS hardening, web security
+- **PhD Research** — offensive/defensive security methodology, empirical lab-based research
 
 ---
 
-## Author
+## ⚠️ Disclaimer
 
-Master of Science in Cybersecurity
-Minnesota State University Moorhead
-Hashan Kodippilige
+All activities were conducted in **authorized, isolated educational lab environments** for academic cybersecurity training and research purposes only. No real systems were targeted.
 
-Splunk Dashboard Developer | Network Security | Ethical Hacking | Digital Forensics
+---
+
+## 👤 Author
+
+**Hashan Kodippilige**  
+M.S. Cybersecurity — Minnesota State University Moorhead  
+📧 hashansharindu@gmail.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/hashankodippilige/)  
+🐙 [GitHub](https://github.com/hashan-kodippilige)
