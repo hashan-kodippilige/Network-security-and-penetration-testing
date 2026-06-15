@@ -1,4 +1,4 @@
-# 🔐 Network Security & Penetration Testing
+# Network Security & Penetration Testing
 
 <p align="center">
   <img src="https://img.shields.io/badge/Kali%20Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white" />
@@ -8,11 +8,11 @@
   <img src="https://img.shields.io/badge/MITRE%20ATT%26CK-E22C2C?style=for-the-badge&logo=target&logoColor=white" />
 </p>
 
-> 🎓 Graduate-level network security portfolio covering vulnerability assessment, penetration testing, Active Directory administration, DNS security, web application testing, and cyber incident investigation — all performed in authorized lab environments.
+> Graduate-level network security portfolio covering vulnerability assessment, penetration testing, Active Directory administration, DNS security, web application testing, and cyber incident investigation — all performed in authorized lab environments.
 
 ---
 
-## 📌 Overview
+## Overview
 
 This repository documents hands-on offensive and defensive security work completed during **graduate-level Network Security coursework** at Minnesota State University Moorhead. It covers the full penetration testing lifecycle from reconnaissance to post-exploitation, alongside enterprise administration, incident response, and traffic forensics.
 
@@ -20,21 +20,21 @@ This repository documents hands-on offensive and defensive security work complet
 
 ---
 
-## 📋 Contents at a Glance
+## Contents at a Glance
 
 | # | Type | Title | Key Tools |
 |---|------|-------|-----------|
-| Lab 1 | 🔬 Lab | Software Vulnerabilities & Real-World Exploitation | MITRE CWE, ATT&CK |
-| Lab 2 | 🔬 Lab | DNS Analysis & DNS Poisoning | NSLookup, Dig |
-| Lab 3 | 🔬 Lab | Payload Deployment & Persistence | Metasploit, Cron |
-| Lab 4 | 🔬 Lab | Web Application Vulnerability Testing | Burp Suite, DVWA |
-| Project 1 | 🚀 Project | Active Directory Deployment & Administration | Windows Server 2022 |
-| Project 2 | 🚀 Project | Metasploitable Exploitation Using Kali Linux | Nmap, Metasploit |
-| Project 3 | 🚀 Project | Cyber Incident Investigation via Traffic Analysis | Wireshark, FTP Forensics |
+| Lab 1 | Lab | Software Vulnerabilities & Real-World Exploitation | MITRE CWE, ATT&CK |
+| Lab 2 | Lab | DNS Analysis & DNS Poisoning | NSLookup, Dig |
+| Lab 3 | Lab | Payload Deployment & Persistence | Metasploit, Cron |
+| Lab 4 | Lab | Web Application Vulnerability Testing | Burp Suite, DVWA |
+| Project 1 | Project | Active Directory Deployment & Administration | Windows Server 2022 |
+| Project 2 | Project | Metasploitable Exploitation Using Kali Linux | Nmap, Metasploit |
+| Project 3 | Project | Cyber Incident Investigation via Traffic Analysis | Wireshark, FTP Forensics |
 
 ---
 
-## 🔬 Labs
+## Labs
 
 ### Lab 1 — Software Vulnerabilities & Real-World Exploitation
 
@@ -98,7 +98,7 @@ This repository documents hands-on offensive and defensive security work complet
 
 ---
 
-## 🚀 Projects
+## Projects
 
 ### Project 1 — Active Directory Deployment & Administration
 
@@ -162,10 +162,10 @@ Post-Exploitation     →   Shell access & system discovery
 
 ---
 
-## 📁 Repository Contents
+## Repository Contents
 
 ```
-📦 Network-security-and-penetration-testing
+Network-security-and-penetration-testing
 ├── 📄 README.md
 ├── 📋 Network Security - Lab 1 - Hashan Kodippilige.pdf
 ├── 📋 Network Security - Lab 2 - Hashan Kodippilige.pdf
@@ -181,13 +181,13 @@ Post-Exploitation     →   Shell access & system discovery
 
 ---
 
-## 🧠 Skills Demonstrated
+## Skills Demonstrated
 
 `Penetration Testing` `Metasploit Framework` `Nmap` `Burp Suite` `Wireshark` `Active Directory` `DNS Security` `DNS Poisoning` `MITRE ATT&CK` `MITRE CWE` `Incident Response` `Digital Forensics` `Web Application Security` `DVWA` `Kali Linux` `Windows Server 2022` `Network Reconnaissance` `Vulnerability Assessment` `Security Reporting`
 
 ---
 
-## 💡 Real-World Relevance
+## Real-World Relevance
 
 This portfolio maps directly to industry roles including:
 - **SOC Analyst** — incident investigation, traffic analysis, threat mapping
@@ -197,13 +197,13 @@ This portfolio maps directly to industry roles including:
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 All activities were conducted in **authorized, isolated educational lab environments** for academic cybersecurity training and research purposes only. No real systems were targeted.
 
 ---
 
-## 👤 Author
+## Author
 
 **Hashan Kodippilige**  
 M.S. Cybersecurity — Minnesota State University Moorhead  
